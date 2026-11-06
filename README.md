@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 # TaskFlow – Project & Task Tracker (MERN)
 
 Small team tool: sign up, create projects, add tasks with priority/due date, move them To Do → In Progress → Done, and watch a dashboard with overdue counts.
@@ -64,7 +64,3 @@ _(Edit this honestly before submitting — the brief penalises vague or false de
 - **Claude** – generated the initial boilerplate for the backend and frontend. I then ___ (describe what you reviewed/changed).
 - Example where AI was wrong / I changed its output: ___ (write one specific example you actually found while testing).
 - Other resources: MongoDB/Mongoose/Express docs, ___
-=======
-# MERN-project-
-"A MERN Stack Task Management Application with JWT Authentication, User Authorization, Project Management, and Task Tracking."
-
