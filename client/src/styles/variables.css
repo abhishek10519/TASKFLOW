@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{
+  --bg:#ece9f6;--surface:#fff;--surface-2:#f7f5fd;--text:#1e1b2e;--ink:#3b1a78;--muted:#7a7692;--line:#e6e2f3;
+  --brand:#7c5cf0;--brand-2:#a78bfa;--brand-d:#6844dc;--brand-soft:#efeafe;
+  --amber:#e8a33d;--amber-soft:#fdf1d9;--amber-ink:#9a6412;
+  --rose:#d64545;--rose-soft:#fdecec;--green:#1f8f5f;--green-soft:#e4f5ec;--blue:#3b82f6;--blue-soft:#e6efff;--grey-soft:#f0edf8;
+  --radius:20px;--shadow-sm:0 1px 2px rgba(59,26,120,.05);--shadow-md:0 10px 28px rgba(59,26,120,.10);--shadow-lg:0 14px 34px rgba(124,92,240,.35);
+}
+[data-theme='dark']{
+  --bg:#0f0c1d;--surface:#181330;--surface-2:#130f26;--text:#ece8fa;--ink:#e9e1ff;--muted:#a29cc0;--line:#2a2447;
+  --brand:#9b82ff;--brand-d:#8567f5;--brand-soft:rgba(155,130,255,.16);
+  --amber-soft:rgba(232,163,61,.16);--amber-ink:#f0bd6a;--rose-soft:rgba(214,69,69,.18);--green-soft:rgba(31,143,95,.2);
+  --blue-soft:rgba(59,130,246,.18);--grey-soft:#221b3d;--shadow-md:0 10px 28px rgba(0,0,0,.4);
+}

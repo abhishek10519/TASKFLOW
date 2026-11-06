@@ -1,0 +1,13 @@
+const router = require('express').Router();
+const { body } = require('express-validator');
+const validate = require('../middleware/validate');
+const { protect } = require('../middleware/auth');
+const p = require('../controllers/projectController');
+const t = require('../controllers/taskController');
+const { taskRules } = require('./tasks');
+const rules = [body('title').trim().notEmpty().withMessage('Title is required')];
+router.use(protect);
+router.route('/').get(p.list).post(rules, validate, p.create);
+router.route('/:id').get(p.getOne).put(rules, validate, p.update).delete(p.remove);
+router.route('/:id/tasks').get(t.list).post(taskRules, validate, t.create);
+module.exports = router;
